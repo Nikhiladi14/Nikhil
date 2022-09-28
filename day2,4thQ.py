@@ -1,0 +1,8 @@
+str=input("enter the string:")
+def reverse(str):
+    str1="   "
+    for i in str:
+        str1=i+str1
+    return str1    
+print("given string:",str)
+print("reverse string:",reverse(str))
